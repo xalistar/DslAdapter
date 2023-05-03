@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tag" type="id"/>
+    <item name="base_retry_button" type="id"/>
+    <item name="lib_item_line_view" type="id"/>
+
+    <!--将DslViewHolder, 放在View的tag中-->
+    <item name="lib_tag_dsl_view_holder" type="id" />
+    <!--将DslAdapterItem, 放在View的tag中-->
+    <item name="lib_tag_dsl_adapter_item" type="id" />
+
+    <!--存储正在执行的[WeakReference][Animator]-->
+    <item name="lib_tag_animator" type="id" />
+
+    <!--取出来的值, 表示属于那个[DslAdapterItem.itemTag]-->
+    <item name="lib_tag_dsl_item_decoration" type="id" />
+
+    <!--保存view的enable状态-->
+    <item name="lib_tag_enable" type="id" />
+
+    <!--保存paddingBottom-->
+    <item name="lib_tag_padding_bottom" type="id" />
+    <!--保存paddingTop-->
+    <item name="lib_tag_padding_top" type="id" />
+</resources>

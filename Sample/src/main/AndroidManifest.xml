@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.angcyo.dsladapter.demo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity
+            android:name=".TreeDemoActivity"
+            android:exported="false"
+            android:label="树结构示例" />
+        <activity
+            android:name=".StaggeredGridLayoutActivity"
+            android:exported="false"
+            android:label="拖拽+滑动删除示例" />
+        <activity
+            android:name=".SelectorDemoActivity"
+            android:exported="false"
+            android:label="选择功能" />
+        <activity
+            android:name=".GroupDemoActivity"
+            android:exported="false"
+            android:label="群组(线性布局)功能" />
+        <activity
+            android:name=".GroupGridDemoActivity"
+            android:exported="false"
+            android:label="群组(网格布局)功能" />
+        <activity
+            android:name=".GridFillDemoActivity"
+            android:exported="false"
+            android:label="网格,群组,填充功能示例" />
+        <activity
+            android:name=".LoadMoreActivity"
+            android:exported="false"
+            android:label="加载更多示例" />
+        <activity
+            android:name=".AdapterStatusActivity"
+            android:exported="false"
+            android:label="情感图示例" />
+        <activity
+            android:name=".LoadDataActivity"
+            android:exported="false"
+            android:label="APP数据加载示例" />
+        <activity
+            android:name=".SwipeMenuActivity"
+            android:exported="false"
+            android:label="侧滑菜单使用示例" />
+        <activity
+            android:name=".SwipeDragActivity"
+            android:exported="false"
+            android:label="侧滑菜单+拖拽使用示例" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
